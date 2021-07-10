@@ -1,4 +1,3 @@
-#enver Gul
 # Definition for singly-linked list.
 class ListNode:
      def __init__(self, val=0, next=None):
@@ -30,24 +29,7 @@ class Solution:
             sum_result = [int(i) for i in str(int(num1[::-1]) + int(num2[::-1]))]
             
             return list_to_listnode(sum_result)
-<<<<<<< .mine
                                   
             return list_to_listnode(sum_result)
 
-
-
-
-
-
-
-=======
-        
-            head = None
-            for i in sum_result:
-                node = ListNode(i)
-                node.next = head
-                head = node
-                
-            return head
 #changes in GitHub
->>>>>>> .theirs
